@@ -31,6 +31,21 @@ Every project follows six steps:
 5. **Modify** — solve variations independently.
 6. **Investigate** — explore a defined question, establish a baseline, and report limitations.
 
+## The 200-Hour Quantum Computing Journey
+
+This Mastery repository is supported by a separate, hands-on learning track that documents progress toward a **200-hour quantum computing learning goal**.
+
+**[Explore the 200-Hour Quantum Computing Learning Tracker](https://github.com/AllIsMine/quantum-computing-200-hours)**
+
+The tracker records learning milestones, Qiskit programming exercises, quantum algorithm implementations, simulation experiments, and technical notes.
+
+The two repositories have complementary roles:
+
+- **200-Hour Learning Tracker:** Daily learning records, practice exercises, unfinished experiments, and progress documentation.
+- **Quantum Computing Mastery:** A curated portfolio of refined, tested, documented, and reproducible projects and research deliverables.
+
+The 200-hour target represents a structured learning goal, not a claim that all planned hours or topics have been completed. Existing learning progress is preserved rather than restarted.
+
 ## Technology Stack
 
 - Python and Qiskit 2.x
@@ -59,11 +74,31 @@ Tools and package versions will be documented and tested for each release.
 
 The theory spine runs in parallel with practical work, covering quantum information, computational complexity, coding and stabilizer theory, fault tolerance, quantum machine-learning theory, and hardware physics.
 
+See [ROADMAP.md](ROADMAP.md) for the curriculum overview, technical direction, planned repository structure, and project quality standards.
+
 ## Repository Structure
 
 The repository will grow progressively as modules are implemented, tested, documented, and reviewed.
 
-See [ROADMAP.md](ROADMAP.md) for the curriculum overview, technical direction, repository structure, and project quality standards.
+The planned structure includes:
+
+- `00-start-here/` — project orientation and guidance.
+- `01-mathematical-foundations/` — computing and mathematical foundations.
+- `02-quantum-fundamentals/` — quantum information and core concepts.
+- `03-quantum-algorithms-protocols/` — algorithms and protocols.
+- `04-quantum-hardware-engineering/` — hardware, noise, and mitigation.
+- `05-quantum-error-correction/` — error correction and fault tolerance.
+- `06-quantum-applications/` — quantum applications and machine learning.
+- `07-research-laboratory/` — reproducible experiments and research.
+- `08-community-teaching/` — educational resources and community contributions.
+- `theory-notes/` — supporting theoretical notes.
+- `src/` — reusable source code.
+- `tests/` — automated tests.
+- `benchmarks/` — performance and experimental comparisons.
+- `docs/` — technical documentation.
+- `reports/` — research and project reports.
+
+Folders will be added as their corresponding work develops.
 
 ## Scientific Standards
 
@@ -78,21 +113,29 @@ This project prioritizes:
 
 A notebook running successfully is not, by itself, evidence of mastery or research validity.
 
-## Repository Organization
+Where relevant, projects should include analytical checks, automated tests, software versions, experimental settings, appropriate references, and explanations of limitations.
 
-This repository is the polished project laboratory. Daily learning notes, sprint tasks, and unfinished experiments remain in the companion repository:
-
-[quantum-computing-200-hours](https://github.com/AllIsMine/quantum-computing-200-hours)
-
-Previous learning progress is preserved rather than restarted.
+Simulator results must be distinguished from experiments performed on physical quantum hardware.
 
 ## Current Status
 
-The master repository and initial roadmap overview have been created. Project modules will be added as they are developed and pass their relevant verification and documentation checks.
+The master repository, initial roadmap, contribution guidelines, license, and Start Here guide have been established.
+
+Technical modules will be added progressively as they are developed, tested, documented, and reviewed. The companion 200-hour tracker continues to preserve learning progress and ongoing experiments.
 
 ## Contributing
 
-Contribution guidelines, testing procedures, and licensing information will be added as the repository develops. Until then, please treat the project as an evolving educational and research initiative.
+Contributions that improve correctness, reproducibility, documentation, testing, and scientific clarity are welcome.
+
+Before contributing, please review the [Contribution Guidelines](CONTRIBUTING.md) and the repository's [MIT License](LICENSE).
+
+All contributions should follow the project's quality standards, respect third-party licenses, and distinguish verified results from assumptions or planned work.
+
+## License
+
+This repository includes an MIT License for original material that the repository owner has the right to license under those terms. Third-party code, datasets, images, and other materials may be subject to separate licenses or usage conditions.
+
+See the [LICENSE](LICENSE) file for the license text.
 
 ## Guiding Principle
 
